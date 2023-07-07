@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" h ref="./styles/style.css" />
+   
+    
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+      integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>RouteWIZ</title>
+
+    
+    <link rel="stylesheet" href="./styles/style.css" />
+   
+
+   
+  </head>
+  <style>
+    body {
+      font-family: "Montserrat", sans-serif;
+    }
+  </style>
+  <body>
+    <section class="main">
+      <div class="container">
+        <video muted loop autoplay class="background-clip"> 
+          <source src="/Images/Untitled video - Made with Clipchamp.mp4" type="video/mp4"> 
+        </video>
+         <div class="content">
+          <a href="#about">
+            <h1>
+              RouteWIZ
+            </h1>
+          </a>
+          <div class="search">
+            <a href="/search.html">Let's Go!</a>
+          </div>
+         </div>         
+      </div>
+    </section>
+      
+
+      
+    <section id="about" class="about"> 
+      <h1>About us</h1>
+      <div class ='row'>
+        <div class="about-logo">
+          <img src="/Images/logo-modified.png">
+          
+        </div>
+          <div class="para">
+            <p>Rajagiri is a huge campus ,and sometimes vistiors and students find it quite difficult to 
+              effectively navigate through the college premises.<br>RouteWIZ 
+              offers a convenient and efficient solution for the same.</p>
+
+          </div>
+
+      </div>
+      
+            
+      </div>
+
+
+
+    
+
+
+
+    </section>
+    
+      
+        
+
+        
+       
+
+    
+    
+
+    
+<script>
+  let select=document.getElementById('select')
+  let list=document.getElementById('list')
+  let selectText=document.getElementById('selectText')
+  let options=document.getElementById('options')
+  let inputfield=document.getElementById('inputfield')
+
+
+  select.onclick=function(){
+    list.classList.toggle('open');
+
+  }
+for(option of options){
+  option.onclick=function(){
+    selectText.innerHTML=this.innerHTML;
+    inputfield.placeholder ="Search in " + selectText.innerHTML;
+  }
+}
+
+
+
+</script>
+   
+  </body>
+</html>

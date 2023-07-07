@@ -1,0 +1,149 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    
+}
+html{
+    scroll-behavior: smooth;
+}
+.container{
+    width:100%;
+    height:100vh;
+    background-color: rgba(0,0,0,0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+
+}
+.content{
+    text-align:center;
+}
+.content h1{
+    font-size: 95px;
+    color: rgb(10, 12, 12);
+    margin-bottom: 50px;
+    transition: 0.5s;
+    text-decoration: none;   
+}
+.content h1:hover{
+    text-decoration: none;
+    -webkit-text-stroke: 2px rgb(28, 181, 195);
+    color: transparent;
+    
+}
+.search a{
+    font-size: 23px;
+    color: #100f0f;
+    text-decoration: none;
+    border: 5px solid #131313;
+    padding: 15px 25px;
+    border-radius: 50px;
+    transition: :0.3s;
+}
+.search a:hover{
+    background-color: rgb(212, 215, 217);
+    color: #38a3b3;
+}
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+@media (min-aspect-ratio:16/9){
+    .background-clip{
+        width:100%;
+        height: auto;
+    }
+    .container{font-size: 20px;}
+}
+@media (max-aspect-ratio:16/9) {
+    .background-clip{
+        width: auto;
+        height: 100%;
+    }
+    
+}
+.background-clip{
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+video { 
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    min-width: 100%;
+    min-height: 100%;
+    z-index: -100;
+    background: url(/Images/Untitled\ video\ -\ Made\ with\ Clipchamp.mp4) no-repeat;
+    background-size: cover;
+}
+}
+
+
+
+
+
+.about{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    padding-top: 50px;
+    margin: 15px auto;
+    width: 70%;
+    font-size: 50px;
+    
+} 
+.about-logo{
+    flex-basis: 32%;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    width: 15px;
+    float: left;
+    border: 3px solid white;
+    border-radius: 10px;
+    margin-right: 15px;
+
+}
+.para{
+    width: 80%;
+    margin: auto;
+    padding-top: 50px;
+    font-size: 45px;
+    margin: 15px auto;
+    width: 70%;
+    font-size: 32px;
+    float: right;
+}
+
+
+
+.dest{
+    text-align:center;
+}
+.dest h1{
+    font-size: 40px;
+    color: rgb(10, 12, 12);
+    margin-bottom: 50px;
+    transition: 0.5s;
+    text-decoration: none; 
+}  
+.dest{
+    
+    background-color: #38a3b3;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

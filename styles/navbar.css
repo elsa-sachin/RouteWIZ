@@ -1,0 +1,103 @@
+nav{
+    position: fixed;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 2rem;
+    
+}                               /*for creating the nav bar*/
+nav .brand{
+    display: flex;
+    align-items: center;
+}                               /*for aligning the brand name at the centre(routewiz)*/
+
+nav .brand img{             
+    height: 67px;
+    margin: 10px ;
+}                   
+
+nav .brand a{
+    color: #7f1616;
+    text-decoration:none;
+    font-size: 1.4rem;
+    font-weight: bold;
+}
+nav ul{
+    display: flex;                  /*for aligning the nav bar elements*/
+}    
+  
+nav ul li{
+    list-style: none;
+    margin: 0 10px;             /*spacing between the nav bar elements*/
+}
+nav ul li a{
+    text-decoration:none;
+    color: rgb(2, 12, 39);
+    padding: 5px;
+    position: relative;
+}
+nav ul li a:hover{   
+    color: rgb(41, 52, 206);          /*when placing the cursor over the nav bar elements colour changes from black to blue*/
+}                            
+nav ul li a::after{
+    content: '';
+    width: 100%;
+    height: 3px;
+    background: rgb(6, 10, 236);
+    position: absolute;          /*underline*/
+    bottom: 0;
+    left: 0;
+    transform:scaleX(0);
+    transition: .3s ease-in-out;
+
+ 
+}
+nav ul li a:hover::after{
+    transform: scaleX(1);            /*the underline will only come aftering hovering over the elements ,(1)-indicates the length of the line along xaxis*/
+}
+nav .fa{
+    color: #e2dcdc;
+    font-size: 2rem;
+    display: none;
+}
+
+@media screen and (max-width:600px) {
+    nav.fa{
+        display: block;
+    }
+    nav ul .fa{
+        margin-bottom: 30px;
+    }
+    nav.brand img{
+        height: 40px; 
+    }
+    nav .brand a{
+        font-size: 1.2rem;
+    }
+    nav ul{
+        flex-direction: column;
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 35%;
+        background-color: rgb(249, 243, 243);
+        padding:10px;
+        height: 100vh;
+        z-index: 99;
+        transform: scaleX(0);
+        
+    }
+    nav ul.menu{
+        transform: scaleX(1);
+    }
+    nav ul li {
+        margin: top 10px; ;
+    }
+    nav ul li a{
+        font-size: 1rem;
+        font-weight: bold;
+    }
+}
+
+
