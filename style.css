@@ -1,26 +1,33 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-
-    
+    box-sizing: border-box;  
 }
+
 html{
     scroll-behavior: smooth;
 }
+
 .container{
     width:100%;
     height:100vh;
     background-color: rgba(0,0,0,0.4);
     display: flex;
     align-items: center;
-    justify-content: center;
-    
-
+    justify-content: center;  
 }
+
+.background-clip{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
 .content{
     text-align:center;
 }
+
 .content h1{
     font-size: 95px;
     color: rgb(10, 12, 12);
@@ -28,12 +35,14 @@ html{
     transition: 0.5s;
     text-decoration: none;   
 }
+
 .content h1:hover{
     text-decoration: none;
     -webkit-text-stroke: 2px rgb(28, 181, 195);
     color: transparent;
     
 }
+
 .search a{
     font-size: 23px;
     color: #100f0f;
@@ -41,18 +50,14 @@ html{
     border: 5px solid #131313;
     padding: 15px 25px;
     border-radius: 50px;
-    transition: :0.3s;
+    transition :0.3s;
 }
+
 .search a:hover{
     background-color: rgb(212, 215, 217);
     color: #38a3b3;
 }
-.background-clip{
-    position: absolute;
-    right: 0;
-    bottom: 0;
-    z-index: -1;
-}
+
 @media (min-aspect-ratio:16/9){
     .background-clip{
         width:100%;
@@ -85,7 +90,7 @@ video {
     min-width: 100%;
     min-height: 100%;
     z-index: -100;
-    background: url(/Images/Untitled\ video\ -\ Made\ with\ Clipchamp.mp4) no-repeat;
+    background: url("C:xampp/htdocs/RouteWIZ/Untitled video - Made with Clipchamp.mp4") no-repeat;
     background-size: cover;
 }
 }
