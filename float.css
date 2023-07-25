@@ -1,0 +1,24 @@
+/* ... (previous styles) ... */
+
+/* Floating windows styles */
+.floating-windows {
+    position: fixed;
+    top: 60%; /* Adjust the distance from the top of the viewport */
+    right: 20px; /* Adjust the distance from the right of the viewport */
+    transform: translateY(-50%); /* Center the floating windows vertically */
+    display: flex;
+    flex-direction: column;
+}
+
+.floating-windows img {
+    width: 150px; /* Set the width of the floating windows */
+    margin-bottom: 10px; /* Optional: add some spacing between the floating windows */
+    display: none; /* Hide the floating windows by default */
+}
+
+/* CSS class to show the floating window */
+.show {
+    display: block;
+}
+
+

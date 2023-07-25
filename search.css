@@ -1,0 +1,107 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: url(Images/video_image-PrWIC6Ohq.jpeg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+h1{
+    margin: 0 0 10px;
+    padding: 0;
+    color:rgb(24, 24, 24);
+    font-size: 24px;
+    padding-left: 10px;
+    padding-top: 20px;
+}
+.search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Set the minimum height to fill the viewport vertically */
+}
+
+input
+{
+    position: relative;
+    display: inline-block;
+    font-size: 20px;
+    box-sizing: border-box;
+    transition: .5s;
+}
+input[type="text"]
+{
+    background: rgb(236, 231, 231);
+    width: 340px;
+    height: 50px;
+    border: none;
+    outline: none;
+    padding: 0 25px;
+    border-radius: 25px 0 0 25px;
+}
+input[type='submit']
+{
+    position:relative;
+    border-radius: 0 25px 25px 0;
+    width: 150px;
+    height: 50px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background:rgb(128, 220, 239) ;
+    color: white;
+}
+input[type='submit']:hover{
+    background: rgb(126, 221, 240);
+}
+.result-box ul{
+    border-top: 1px solid #101010;
+    padding:15px 10px;
+}
+.result_box ul li{
+    list-style: none;
+    border-radius: 3px;
+    padding: 15px 10px;
+    cursor: pointer;
+}
+.right-links{
+    float: right;
+}
+.right-links a {
+    display: block;
+    margin-bottom: 10px;
+    right: 20px;
+    color: #000000; /* Link text color */
+    text-decoration: none; /* Remove underline */
+    font-size: 16px; /* Font size of the link text */
+    font-weight: bold; /* Font weight of the link text */
+}
+
+/* Hover styles for the links */
+.right-links a:hover {
+    color: #555; /*
+}
+.floating-windows {
+    display: none; /* Initially hide the container */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999; /* Set a high z-index to ensure it appears above other content */
+  }
+  
+  /* Style for the floating window images */
+  .floating-windows img {
+    display: none; /* Initially hide the images */
+    max-width: 200px; /* Set the maximum width for the images */
+    border: 2px solid #ccc; /* Add a border around the images (optional) */
+    border-radius: 5px; /* Add rounded corners to the images (optional) */
+  }
+  
+  /* Style to show the floating window images when the "show" class is added */
+  .floating-windows img.show {
+    display: block;
+    margin-bottom: 10px; /* Add some space between the images (optional) */
+  }
+  
+
+
+
