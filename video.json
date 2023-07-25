@@ -34,7 +34,7 @@
     "DEPT CONFERENCE ROOM (MECH)":"animation/DEPT CONFERENCE ROOM (MECH).mp4",
     "DEPT LIBRARY (MECH)":"animation/DEPT LIBRARY (MECH).mp4",
     "DRAWING HALL 1":"animation/DRAWING HALL 1.mp4",
-    "DINING HALL 1":"animation/DINING HALL 1.mp4",
+    "DINING ROOM 1":"animation/DINING HALL 1.mp4",
     "S4 MECH(ALPHA)":"animation/S4 MECH(ALPHA).mp4",
     "LH 12":"animation/S4 MECH(ALPHA).mp4",
     "S4 MECH(BETA)":"animation/S4 MECH(BETA).mp4",
@@ -52,7 +52,38 @@
     "STAFFROOM 3 (MECH)":"animation/STAFFROOM 3 (MECH).mp4",
     "SYCAMORE LAB":"animation/SYCAMORE LAB.mp4",
     "TUTORIAL HALL 3":"animation/TUTORIAL HALL 3.mp4",
-    "TUTORIAL HALL 4":"animation/TUTORIAL HALL 4.mp4"
+    "TUTORIAL HALL 4":"animation/TUTORIAL HALL 4.mp4",
+    "CONFERENCE ROOM":"animation/CONFERENCE ROOM.mp4",
+    "DINING ROOM 2":"animation/DINING ROOM 2.mp4",
+    "LH 19":"animation/LH 19.mp4",
+    "LH 20":"animation/LH 20.mp4",
+    "EXAMINATION CELL":"animation/EXAMINATION CELL.mp4",
+    "EXAM CONTROL ROOM":"animation/EXAM CONTROL ROOM.mp4",
+    "Environmental Lab(CE)":"animation/ENVIROMENTAL LAB.mp4",
+    "S4 CIVIL":"animation/S4 CE.mp4",
+    "LH 18":"animation/S4 CE.mp4",
+    "Ladies Washroom":"animation/Ladies Washroom.mp4",
+    "Mens Washroom":"animation/Mens Washroom.mp4",
+    "S4 IT":"animation/S4 IT.mp4",
+    "LH 13":"animation/S4 IT.mp4",
+    "S6 CIVIL":"animation/S6 CE.mp4",
+    "LH 17":"animation/S6 CE.mp4",
+    "S8 CIVIL":"animation/S8 CIVIL.mp4",
+    "LH 16":"animation/S8 CIVIL.mp4",
+    "S8 IT":"animation/S8 IT.mp4",
+    "LH 15":"animation/S8 IT.mp4",
+    "STAFFROOM 1 (CIVIL)":"animation/STAFFROOM 1 (CIVIL).mp4",
+    "STAFFROOM 2 (CIVIL)":"animation/STAFFROOM 2 (CIVIL).mp4",
+    "STAFFROOM 2 (IT)":"animation/STAFFROOM 2 (IT).mp4",
+    "TUTORIAL HALL 6":"animation/TUTORIAL HALL 6.mp4",
+    "DEPT LIBRARY (CIVIL)":"animation/DEPT LIBRARY (CIVIL).mp4",
+    "TUTORIAL HALL 5":"animation/TUTORIAL HALL 5.mp4",
+    "SEMINAR HALL (CIVIL)":"animation/SEMINAR HALL (CIVIL).mp4",
+    "STAFFROOM (EEE)":"animation/STAFFROOM (EEE).mp4"
+
+    
+
+    
 
 
     
