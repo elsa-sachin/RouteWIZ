@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Search Bar Example</title>
+    <title>Search</title>
     <link rel="stylesheet" type="text/css" href="search.css">
     <link rel="stylesheet" type="text/css" href="float.css">
 
@@ -16,18 +16,16 @@
         <input type="text" name="query" placeholder="Enter LH 5 / S4 IT format">
         <input type="submit" name="submit" value="SEARCH">
         
-        </div>
+        
         
     </form>
    
-    </div>
+   
     
 </div> 
 
 </body>
 </html>
-
-
 
 <?php
 // Check if the search query is submitted
